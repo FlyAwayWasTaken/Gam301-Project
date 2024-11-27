@@ -1,0 +1,10 @@
+. Games for Learning: Logic Puzzle Game
+
+Concept: A black-and-white, top-down logic puzzle where players 
+solve problems by placing blocks in specific patterns or completing sequences. 
+Teach basic programming logic (e.g., conditions, loops).
+
+Why It Works: Simple mechanics can convey learning concepts effectively. 
+A puzzle game is straightforward to prototype.
+
+Features: Include a tutorial level, a few puzzles, and a clear progression system.
