@@ -34,8 +34,13 @@
   },
   "name":"Gam301",
   "resources":[
+    {"id":{"name":"f_ConsoleClassicNeue","path":"fonts/f_ConsoleClassicNeue/f_ConsoleClassicNeue.yy",},},
     {"id":{"name":"Project Plan","path":"notes/Project Plan/Project Plan.yy",},},
+    {"id":{"name":"o_Block","path":"objects/o_Block/o_Block.yy",},},
+    {"id":{"name":"o_Mouse","path":"objects/o_Mouse/o_Mouse.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"scr_BlockScriptEmpty","path":"scripts/scr_BlockScriptEmpty/scr_BlockScriptEmpty.yy",},},
+    {"id":{"name":"s_MouseHitBox","path":"sprites/s_MouseHitBox/s_MouseHitBox.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
