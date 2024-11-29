@@ -8,9 +8,28 @@ if collision_rectangle(x - ((StringLength + 50) / 2),y - ((StringHeight + 20) / 
 {
 	//we are touching the mouse
 	if mouse_check_button(mb_left)
-	{
-		Selected = true
-		Hovered = true
+	{	
+		//are any other blocks selected
+		//get list of all block ids
+		var SelectedFound = false
+		var Blocks = noone
+		for (var i = 0; i < instance_number(o_Block); i++)
+		{
+			Blocks[i] = instance_find(o_Block,i)
+			//check through them for selected being true (excluding the instance with the same id as this one)
+			if Blocks[i].id != id
+			{
+				if Blocks[i].Selected = true
+				{
+					SelectedFound = true	
+				}
+			}
+		}
+		if SelectedFound = false
+		{
+			Selected = true
+			Hovered = true
+		}
 	}
 	else
 	{

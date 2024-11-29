@@ -41,6 +41,7 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"scr_BlockScriptEmpty","path":"scripts/scr_BlockScriptEmpty/scr_BlockScriptEmpty.yy",},},
     {"id":{"name":"s_MouseHitBox","path":"sprites/s_MouseHitBox/s_MouseHitBox.yy",},},
+    {"id":{"name":"s_WorkspaceBG","path":"sprites/s_WorkspaceBG/s_WorkspaceBG.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

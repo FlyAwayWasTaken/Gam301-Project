@@ -1,3 +1,13 @@
+//set depth according to if we are being selected or not
+if Selected = true
+{
+	depth = 0
+}
+else
+{
+	depth = 100	
+}
+
 //work out how long the text will be when written out
 draw_set_font(f_ConsoleClassicNeue) //make sure the font is set before calculations
 draw_set_halign(fa_center)
@@ -18,6 +28,28 @@ if Selected = true
 {
 	x = o_Mouse.x
 	y = o_Mouse.y
+	
+	//make sure we are in the bounding box 
+	//left side
+	if x < 0 + ((StringLength + 50) / 2)
+	{
+		x = ((StringLength + 50) / 2)
+	}
+	//right side
+	if x > 944 - ((StringLength + 50) / 2)
+	{
+		x = 944 - ((StringLength + 50) / 2)
+	}
+	//up side
+	if y < 0 + ((StringHeight + 20) / 2)
+	{
+		y = ((StringHeight + 20) / 2)
+	}
+	if y > 768 - ((StringHeight + 20) / 2)
+	{
+		y = 768 - ((StringHeight + 20) / 2)
+	}
+	//down side
 }
 
 //draw the rectangle
