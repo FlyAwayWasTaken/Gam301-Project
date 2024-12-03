@@ -6,9 +6,9 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_10B6CB09","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_7932A648","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_5D9A69FE","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_50053DBF","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_32379029","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -16,11 +16,10 @@
         {"$GMRInstance":"v1","%Name":"inst_5D9A69FE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5D9A69FE","objectId":{"name":"o_Mouse","path":"objects/o_Mouse/o_Mouse.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-32.0,"y":-32.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Blocks","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v1","%Name":"inst_10B6CB09","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_10B6CB09","objectId":{"name":"o_Block","path":"objects/o_Block/o_Block.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":512.0,"y":160.0,},
-        {"$GMRInstance":"v1","%Name":"inst_7932A648","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7932A648","objectId":{"name":"o_Block","path":"objects/o_Block/o_Block.yy",},"properties":[
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_Block","path":"objects/o_Block/o_Block.yy",},"propertyId":{"name":"BlockName","path":"objects/o_Block/o_Block.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"fortnite battle pass",},
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_Block","path":"objects/o_Block/o_Block.yy",},"propertyId":{"name":"BlockColor","path":"objects/o_Block/o_Block.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"$FF600463",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":512.0,"y":320.0,},
+        {"$GMRInstance":"v1","%Name":"inst_50053DBF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_50053DBF","objectId":{"name":"o_Block","path":"objects/o_Block/o_Block.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_Block","path":"objects/o_Block/o_Block.yy",},"propertyId":{"name":"BlockName","path":"objects/o_Block/o_Block.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"START!",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":101.0,"y":63.0,},
+        {"$GMRInstance":"v1","%Name":"inst_32379029","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_32379029","objectId":{"name":"o_BlockButton","path":"objects/o_BlockButton/o_BlockButton.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":796.0,"y":66.0,},
       ],"layers":[],"name":"Blocks","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"s_WorkspaceBG","path":"sprites/s_WorkspaceBG/s_WorkspaceBG.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
