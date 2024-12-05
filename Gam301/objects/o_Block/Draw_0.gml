@@ -70,3 +70,17 @@ if ConnectedID = noone
 draw_set_color(c_black)
 draw_text(x,y,BlockName)
 draw_set_color(c_white)
+
+//draw if selected
+if Hovered = true
+{
+	//draw the rectangle
+	draw_rectangle_color(1123 - (StringLength + 50),673 - (StringHeight + 20),1123 + (StringLength + 50),673 + (StringHeight + 20),BlockColor,BlockColor,BlockColor,BlockColor,false)
+	//draw the outline
+	draw_rectangle_color(1123 - (StringLength + 50),673 - (StringHeight + 20),1123 + (StringLength + 50),673 + (StringHeight + 20),c_black,c_black,c_black,c_black,true)
+	draw_rectangle_color(1123 - (StringLength + 50) + 1,673 - (StringHeight + 20) + 1,1123 + (StringLength + 50) - 1,673 + (StringHeight + 20) - 1,c_black,c_black,c_black,c_black,true)	
+	
+	draw_set_color(c_black)
+	draw_text_transformed(1123,673,BlockName,2,2,0)
+	draw_set_color(c_white)
+}

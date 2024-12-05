@@ -28,7 +28,7 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"SpawnBlockName","filters":[],"listItems":[],"multiselect":false,"name":"SpawnBlockName","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Block","varType":2,},
-    {"$GMObjectProperty":"v1","%Name":"SpawnBlockScript","filters":[],"listItems":[],"multiselect":false,"name":"SpawnBlockScript","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"scr_BlockScriptEmpty()","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"SpawnBlockScript","filters":[],"listItems":[],"multiselect":false,"name":"SpawnBlockScript","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"scr_BlockScriptEmpty","path":"scripts/scr_BlockScriptEmpty/scr_BlockScriptEmpty.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"scr_BlockScriptEmpty","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"SpawnBlockColor","filters":[],"listItems":[],"multiselect":false,"name":"SpawnBlockColor","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"$FF00FFFF","varType":7,},
     {"$GMObjectProperty":"v1","%Name":"SpawnStock","filters":[],"listItems":[],"multiselect":false,"name":"SpawnStock","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"4","varType":1,},
   ],
