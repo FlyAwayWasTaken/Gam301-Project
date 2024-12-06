@@ -9,8 +9,19 @@ if PlayChain = true
 		}
 		//increment counter 
 		PlayStackNo += 1
+		if PlayStackNo > CurrentStackNo
+		{
+			//we're done
+			PlayChain = false
+			with CurrentStackIDs[PlayStackNo]
+			{
+				Hovered = false 	
+			}
+			PlayStackNo = 0
+			o_StartButton.Playing = false
+		}
 		//reset timer
-		ChainPlayTimer = 20
+		ChainPlayTimer = 40
 	}
 	else
 	{
@@ -28,4 +39,8 @@ if PlayChain = true
 			}
 		}
 	}
+}
+else
+{
+	o_Block.Hovered = false	
 }

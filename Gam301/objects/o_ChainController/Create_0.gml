@@ -1,7 +1,7 @@
 CurrentStackNo = 0
 CurrentStackIDs = noone
 PlayChain = false
-ChainPlayTimer = 20
+ChainPlayTimer = 40
 PlayStackNo = 0
 
 //lets just define a million goddamn slots in this array so it pretty much never breaks

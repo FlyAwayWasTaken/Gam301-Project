@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"o_PlayerTank",
+  "%Name":"o_BulletParticle",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"o_PlayerTank",
+  "name":"o_BulletParticle",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_PlayerTank",
-    "path":"sprites/s_PlayerTank/s_PlayerTank.yy",
+    "name":"s_Bullet",
+    "path":"sprites/s_Bullet/s_Bullet.yy",
   },
   "spriteMaskId":null,
   "visible":true,
