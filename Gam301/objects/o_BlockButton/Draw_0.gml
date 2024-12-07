@@ -10,7 +10,7 @@ if collision_rectangle(x - ((StringLength + 50) / 2),y - ((StringHeight + 20) / 
 	draw_set_alpha(0.5)
 	draw_rectangle_color(x - ((StringLength + 60) / 2),y - ((StringHeight + 30) / 2),x + ((StringLength + 60) / 2),y + ((StringHeight + 30) / 2),c_yellow,c_yellow,c_yellow,c_yellow,false)	
 	draw_set_alpha(1)
-	if mouse_check_button_pressed(mb_left) and SpawnStock > 0
+	if mouse_check_button_pressed(mb_left) and SpawnStock > 0 and o_ChainController.PlayChain = false
 	{
 		SpawnStock -= 1 
 		
