@@ -7,6 +7,7 @@ PlayStackNo = 0
 RepeatMarkerStackNo = 0
 RepeatStackTimes = 0
 RepeatStackSet = false 
+EndID = noone
 
 //lets just define a million goddamn slots in this array so it pretty much never breaks
 for (var i = 0; i < 100; i++)

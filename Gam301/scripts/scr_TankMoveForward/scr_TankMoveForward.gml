@@ -8,11 +8,15 @@ function scr_TankMoveForward(){
 			x += lengthdir_x(50, direction + 90)
 			y += lengthdir_y(50, direction + 90)
 			audio_play_sound(mus_Move,1,false)
+			gamepad_set_vibration(0,0.5,0.5)
+			o_Mouse.VibrationCounter = 5
 		}
 		else
 		{
 			//make wall hit sound
 			audio_play_sound(mus_WallHit,1,false)
+			gamepad_set_vibration(0,1,1)
+			o_Mouse.VibrationCounter = 20
 		}
 	}
 }

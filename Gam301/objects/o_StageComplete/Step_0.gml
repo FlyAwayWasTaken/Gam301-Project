@@ -17,6 +17,10 @@ if !instance_exists(o_EnemyTank)
 			case Room1:
 				room = Room2
 				break;
+			case Room2:
+				room = Room3
+				break;
+				
 		}
 	}
 	else

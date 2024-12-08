@@ -7,14 +7,17 @@ var StringHeight = string_height(SpawnBlockName)
 
 if collision_rectangle(x - ((StringLength + 50) / 2),y - ((StringHeight + 20) / 2),x + ((StringLength + 50) / 2),y + ((StringHeight + 20) / 2),o_Mouse,true,false)
 {
+	o_Mouse.image_index = 1
 	draw_set_alpha(0.5)
 	draw_rectangle_color(x - ((StringLength + 60) / 2),y - ((StringHeight + 30) / 2),x + ((StringLength + 60) / 2),y + ((StringHeight + 30) / 2),c_yellow,c_yellow,c_yellow,c_yellow,false)	
 	draw_set_alpha(1)
-	if mouse_check_button_pressed(mb_left) and SpawnStock > 0 and o_ChainController.PlayChain = false
+	if (mouse_check_button_pressed(mb_left) or gamepad_button_check_pressed(0,gp_face1) or gamepad_button_check_pressed(0,gp_face2))and SpawnStock > 0 and o_ChainController.PlayChain = false
 	{
 		SpawnStock -= 1 
 		
 		audio_play_sound(mus_SelectBlock,1,false)
+		gamepad_set_vibration(0,0.8,0.8)
+		o_Mouse.VibrationCounter = 5
 		
 		//spawn block and attatch it to the latest block?? 	
 		var BlockSpawned = instance_create_layer(x,y,"Blocks",o_Block)

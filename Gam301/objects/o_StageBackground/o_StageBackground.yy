@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_Stage1Map",
-    "path":"sprites/s_Stage1Map/s_Stage1Map.yy",
+    "name":"s_Stage3Map",
+    "path":"sprites/s_Stage3Map/s_Stage3Map.yy",
   },
   "spriteMaskId":null,
   "visible":true,

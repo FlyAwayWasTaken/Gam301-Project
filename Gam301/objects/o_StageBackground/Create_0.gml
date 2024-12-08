@@ -6,4 +6,7 @@ switch room
 	case Room2:
 		sprite_index = s_Stage2Map
 		break;
+	case Room3:
+		sprite_index = s_Stage3Map
+		break;
 }
