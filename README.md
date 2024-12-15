@@ -6,3 +6,5 @@ Graphics: All sprites, textures, backgrounds, and UI elements were designed and 
 Sound: All sound effects and music tracks were composed and produced by me.
 Models/Animations: Any 3D models or animations used in the game were made by me.
 Code: All code in this project was written by me.
+
+Classic Console Neue Font by DeeJayy
